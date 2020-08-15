@@ -42,7 +42,7 @@ Genres are a pipe-separated list, and are selected from the following:
 * War
 * Western
 * (no genres listed)
-</br><i>Links Data File Structure (links.csv):  </i>
+</br><i>Links Data File Structure (links.csv): </i>
 Identifiers that can be used to link to other sources of movie data are contained in the file `links.csv`. Its format:
 movieId,imdbId,tmdbId.
 </br><i>credits Data File Structure(credits.csv): </i>credits information is contained in the file `credits.csv`. Its format:cast,crew,id.
@@ -50,13 +50,12 @@ movieId,imdbId,tmdbId.
 </br></br><b>Algorithm used: </b>
 </br><i>Pearson Similarity:</i> The Pearson Similarity procedure computes similarity between all pairs of movies.
 </br><i>Cosine Similarity :</i> The Cosine Similarity procedure is used to calculate a numeric quantity that denotes the similarity between two movies.
-</br><i>Collaborative Filteringbr><i> algorithm:</i> This algorithm recommends the most similar items to the user by calculating the similarity between the movies.
-</br></br><b>The types of Recommender Used:<b>
-  </br><i>General Movie Recommender:</i> This model recommends the movies that are more popular.
-   </br><i>Content Based Recommender:</i> This model recommends based on movie Taglines, Overviews and cast.
-   </br><i>Movie Description Based Recommender:</i> this model recommends using movie description and tagline.
-  </br><i>Metadata Based Recommender:</i> This model uses the crew informationof the movie data and the keyword to recommend the movie.
-  </br><i>Rating Based Recommender:</i> This model recommends the movie based on the user ratings.
-  </br><i>Similarity Based Recommender:</i>This model gives the personalised recommendation of the similar movies with highest ratings.
-  </br><i>Collaborative Filtering Recommender:</i>
+</br><i>Collaborative Filtering algorithm:</i> This algorithm recommends the most similar items to the user by calculating the similarity between the movies.
+</br></br><b>The types of Recommender Used:</b>
+</br><i>General Movie Recommender:</i> This model recommends the movies that are more popular.
+</br><i>Content Based Recommender:</i> This model recommends based on movie Taglines, Overviews and cast.
+</br><i>Movie Description Based Recommender:</i> this model recommends using movie description and tagline.
+</br><i>Metadata Based Recommender:</i> This model uses the crew informationof the movie data and the keyword to recommend the movie.
+</br><i>Rating Based Recommender:</i> This model recommends the movie based on the user ratings.
+</br><i>Similarity Based Recommender:</i>This model gives the personalised recommendation of the similar movies with highest ratings.
 
